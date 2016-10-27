@@ -1,5 +1,6 @@
 body {
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'Roboto', sans-serif; }
 
 #calculator {
   width: 100vmin;
@@ -8,17 +9,37 @@ body {
   transform: translateY(-50%);
   margin: 0 auto; }
   #calculator #result {
-    background-color: red;
-    height: 20.8vmin; }
+    text-align: right;
+    background-color: #F3F3F3;
+    font-size: 14vmin;
+    font-weight: 100;
+    height: 20.8vmin;
+    line-height: 20.8vmin; }
   #calculator #preview {
-    background-color: green;
-    height: 11.2vmin; }
-  #calculator #keys .key {
-    background-color: blue;
-    height: 16vmin; }
-  #calculator #operators .operator {
-    background-color: orange;
-    height: 12.8vmin;
-    margin: 0 -15px; }
+    text-align: right;
+    background-color: #F3F3F3;
+    height: 11.2vmin;
+    font-size: 6vmin;
+    line-height: 11.2vmin;
+    padding-right: 2vmin;
+    font-weight: 100; }
+  #calculator #keys {
+    text-align: center; }
+    #calculator #keys .key {
+      background-color: #434343;
+      color: #F3F3F3;
+      font-weight: 100;
+      height: 16vmin;
+      font-size: 8vmin;
+      line-height: 16vmin; }
+  #calculator #operators {
+    text-align: center; }
+    #calculator #operators .operator {
+      background-color: #636363;
+      height: 12.8vmin;
+      font-weight: 300;
+      margin: 0 -15px;
+      font-size: 6vmin;
+      line-height: 12.8vmin; }
 
 /*# sourceMappingURL=styles.css.map */
