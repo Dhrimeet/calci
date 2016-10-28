@@ -10,6 +10,14 @@ body{
   transform: translateY(-50%);
   margin: 0 auto;
 
+  #keys,#operators {
+    ::selection {
+      background-color: transparent;
+      color: inherit;
+    }
+
+  }
+
   #result {
     text-align: right;
     background-color: #F3F3F3;
@@ -60,4 +68,5 @@ body{
       line-height: 0.8*$key-height;
     }
   }
-}
+
+  }
