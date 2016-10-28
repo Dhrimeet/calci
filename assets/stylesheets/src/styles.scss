@@ -40,6 +40,14 @@ body{
       height: $key-height;
       font-size: 8vmin;
       line-height: $key-height;
+      transition: background-color 0.3s ease-in;
+
+    &:hover {
+      background-color: darken(#434343, 5%);
+    }
+    &:active {
+      background-color: darken(#434343, 10%);
+     }
     }
   }
   #operators {
