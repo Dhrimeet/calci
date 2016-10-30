@@ -56,8 +56,7 @@ var Calci = {
         Calci.handleInput('-');
       }
     }else {
-      lastChar = Calci.getLastChar();
-      if (['+', '-', '*', '/'].indexOf(lastChar) != -1) {
+      if (Calci.checkLastCharIsOperator()) {
         Calci.handleDelete();
       }
       Calci.handleInput(operator);
